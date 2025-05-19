@@ -64,6 +64,37 @@
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
     }
+
+    .purple {
+      --background: 265 100% 12%;
+      --foreground: 45 100% 50%;
+    
+      --card: 265 100% 12%;
+      --card-foreground: 45 100% 50%;
+    
+      --popover: 265 100% 12%;
+      --popover-foreground: 45 100% 50%;
+    
+      --primary: 270 100% 50%; /* vibrant purple */
+      --primary-foreground: 45 100% 50%;
+    
+      --secondary: 275 50% 18%; /* darker violet */
+      --secondary-foreground: 45 100% 50%;
+    
+      --muted: 270 30% 20%; /* muted purple */
+      --muted-foreground: 280 20% 70%;
+    
+      --accent: 270 60% 30%;
+      --accent-foreground: 45 100% 50%;
+    
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 45 100% 50%;
+    
+      --border: 270 30% 30%;
+      --input: 270 30% 30%;
+      --ring: 270 100% 70%;
+    
+    }
   }
 
   @layer base {

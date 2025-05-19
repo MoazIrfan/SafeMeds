@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💊 SafeMeds
 
-## Getting Started
 
-First, run the development server:
+> SafeMeds helps you understand your doctor’s handwritten prescriptions. Just upload a photo, and the app will clearly list out each medicine — including the name, dosage, duration, when to take it, and whether it’s a tablet, capsule, gel, or injection.   
+It helps users understand the purpose, possible side effects, or if there are any precautions you should follow. 
 
-```bash
+<br>
+
+[![📟](https://github.com/MoazIrfan/wc-cli/raw/main/.github/install.png)](./../../)
+
+## Run
+
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[![📃](https://raw.githubusercontent.com/MoazIrfan/wc-cli/main/.github/license.png)](./../../)
+## License
 
-## Learn More
+MIT © [Moaz Irfan](https://twitter.com/MoazIrfan/)
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![🙌](https://github.com/MoazIrfan/wc-cli/raw/main/.github/connect.png)](./../../)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Connect
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="left">
+    <p>
+    <a href="https://github.com/MoazIrfan">
+        <img alt="GitHub @MoazIrfan" align="center" src="https://img.shields.io/badge/GITHUB-gray.svg?colorB=6cc644&style=flat" />
+    </a>&nbsp;
+    <a href="https://twitter.com/MoazIrfan/">
+        <img alt="Twitter @MoazIrfan" align="center" src="https://img.shields.io/badge/TWITTER-gray.svg?colorB=1da1f2&style=flat" />
+    </a>&nbsp;
+    <a href="https://moazirfan.com/">
+        <img alt="Blog: moazirfan.com" align="center" src="https://img.shields.io/badge/MY%20BLOG-gray.svg?colorB=4D2AFF&style=flat" />
+    </a>&nbsp;
+    <a href="https://www.linkedin.com/in/moazirfan/">
+        <img alt="LinkedIn @MoazIrfan" align="center" src="https://img.shields.io/badge/LINKEDIN-gray.svg?colorB=0077b5&style=flat" />
+    </a>&nbsp;
+</p>
+</div>

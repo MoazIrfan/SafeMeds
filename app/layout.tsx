@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Source_Code_Pro } from "next/font/google";
+import { Inter, Ubuntu } from "next/font/google";
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
-// import { Toaster } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster"
 
 const inter = Inter({ subsets: ["latin"] });
-const source_code_pro = Source_Code_Pro({ subsets: ["latin"] });
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
 
 export const metadata: Metadata = {
   title: "SafeMeds",
@@ -21,12 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={source_code_pro.className}>
+      <body className={ubuntu.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
+          themes={["light", "dark", "purple"]}
         >
           <TooltipProvider>{children}</TooltipProvider>
           <Toaster />

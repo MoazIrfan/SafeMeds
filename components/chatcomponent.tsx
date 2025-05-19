@@ -18,11 +18,11 @@ const ChatComponent = ({ reportData }: Props) => {
       api: "api/medichatgemini",
     });
   return (
-    <div className="h-full bg-muted/50 relative flex flex-col min-h-[50vh] rounded-xl p-4 gap-4">
+    <div className="bg-muted/50 relative flex flex-col min-h-[50vh]  p-4 gap-4" style={{ height: 'calc(100vh - 57px)' }}>
       <Badge variant={'outline'}
         className={`absolute right-3 top-1.5 ${reportData && "bg-[#00B612]"}`}
       >
-        {reportData ? "✓ Report Added" : "No Report Added"}
+        {reportData ? "✓ Prescriton Added" : "No Prescriton Added"}
 
       </Badge>
       <div className="flex-1" />
@@ -58,12 +58,13 @@ const ChatComponent = ({ reportData }: Props) => {
         />
         <div className="flex items-center p-3 pt-0">
           <Button
+            variant="outline"
             disabled={isLoading}
             type="submit"
             size="sm"
             className="ml-auto"
           >
-            {isLoading ? "Analysing..." : "3. Ask"}
+            {isLoading ? "Analysing..." : "Ask About Prescription"}
             {isLoading ? (
               <Loader2 className="size-3.5 animate-spin" />
             ) : (
