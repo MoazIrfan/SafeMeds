@@ -3,8 +3,12 @@ import { Input } from './ui/input'
 import { Button } from './ui/button'
 import { Textarea } from './ui/textarea'
 import { Label } from './ui/label'
-import SocialMediaLinks from './social-links'
-// import { toast } from 'sonner'
+import {
+    Bot,
+    Settings,
+    HeartPulse
+  } from "lucide-react";
+import { toast } from 'sonner'
 import { useToast } from "@/components/ui/use-toast"
 
 type Props = {
@@ -145,10 +149,17 @@ const ReportComponent = ({ onReportConfirmation }: Props) => {
     }
 
     return (
-        // <div className="grid w-full items-start gap-6">
-        <div className="grid w-full items-start gap-6 overflow-auto p-4 pt-0">
-            <fieldset className='relative grid gap-6 rounded-lg border p-4'>
-                <legend className="text-sm font-medium">Report</legend>
+        <div className="grid w-full h-screen items-start gap-6 overflow-auto p-4 pt-0 border">
+            <fieldset className='relative grid gap-6 rounded-lg p-4'>
+
+                <h2 className="text-xl pb-8">
+                    <span className="flex items-center space-x-2">
+                        <HeartPulse />
+                        <span>SafeMeds</span>
+                    </span>
+                </h2>
+
+                <legend className="text-sm font-medium"></legend>
                 {isLoading && (
                     <div
                         className={"absolute z-10 h-full w-full bg-card/90 rounded-lg flex flex-row items-center justify-center"
@@ -159,28 +170,28 @@ const ReportComponent = ({ onReportConfirmation }: Props) => {
                 )}
                 <Input type='file'
                     // accept='image/*' 
-                    onChange={handleReportSelection} />
-                <Button onClick={extractDetails}>1. Upload File</Button>
-                <Label>Report Summary</Label>
+                    onChange={handleReportSelection} 
+                />
+                <Button variant="outline" onClick={extractDetails}>Upload File</Button>
+                <Label>Summary</Label>
                 <Textarea
                     value={reportData}
                     onChange={(e) => {
                         setReportData(e.target.value);
                     }}
-                    placeholder="Extracted data from the report will appear here. Get better recommendations by providing additional patient history and symptoms..."
+                    placeholder="Extracted medicine details will appear here. Please fix any incorrect medicine names if needed."
                     className="min-h-72 resize-none border-0 p-3 shadow-none focus-visible:ring-0" />
                 <Button
-                    variant="destructive"
-                    className="bg-[#D90013]"
+                    variant="outline"
+                    
                     onClick={() => {
                         onReportConfirmation(reportData);
                     }}
                 >
-                    2. Looks Good
+                    Add Prescription
                 </Button>
                 <div className='flex flex-row items-center justify-center gap-2 p-4'>
-                    <Label>Share your thoughts </Label>
-                    <SocialMediaLinks />
+                    <Label>Review and fix the prescription before adding it.</Label>
                 </div>
             </fieldset>
         </div>
