@@ -31,7 +31,7 @@ Ask questions about medicines and get instant answers.
 |--------|--------|--------|
 | ![Upload](/public/Upload.png) | ![Add](/public/Add.png) | ![Ask](/public/Ask.png) |
 
-> For additional relevant info, add documents to Knowledge Base.
+> Optional — Add documents to the Knowledge Base for more relevant answers.
 
 ---
 
