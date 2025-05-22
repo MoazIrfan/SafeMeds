@@ -8,7 +8,8 @@
 Just snap a photo of a prescription, and SafeMeds will extract all the medicines along with details like dosage, type, and duration.<br>
 And than You can then ask questions about the medicines to learn their purpose, possible side effects, and necessary precautions.</p>
 </div>
-<br>
+
+---
 
 ## 🚀 Features:
 - 🖥️ **Intuitive Interface**: 
@@ -22,7 +23,7 @@ Ask questions about medicines and get instant answers.
 - 🔓 **Open Source**:
 100% open source & free to use.
 
-<br>
+---
 
 ## 📱 Screenshots
 
@@ -31,6 +32,8 @@ Ask questions about medicines and get instant answers.
 | ![Upload](/public/Upload.png) | ![Add](/public/Add.png) | ![Ask](/public/Ask.png) |
 
 > For additional relevant info, add documents to Knowledge Base.
+
+---
 
 ## 📦 Run
 
@@ -52,12 +55,12 @@ Get the keys from:
 [Pinecone API](https://www.pinecone.io/) - for Pinecone API key <br>
 [Huggingface API](https://huggingface.co/) - for Huggingface API key
 
-<br>
+---
 
 ## ⭐️ Support
 If you find SafeMeds useful, consider giving the repo a ⭐️ on GitHub!
 
-<br>
+---
 
 ## 👋 Connect
 
