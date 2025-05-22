@@ -35,6 +35,13 @@ Ask questions about medicines and get instant answers.
 
 ---
 
+## 🧩 Tech Stack
+- **Web**: Next.js, Tailwind CSS
+- **AI**: Gemini - 1.5 Pro
+- **Storage**: Pinecone DB
+
+---
+
 ## 📦 Run
 
 ```sh
