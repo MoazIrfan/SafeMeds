@@ -1,9 +1,13 @@
-# 💊 SafeMeds
+<div align="center">
 
->SafeMeds is an open-source app that uses AI to help you better understand your medications.<br>
+<img src="public/SafeMeds.png" alt="SafeMeds Logo" width="150"/>
+
+<h1>💊 SafeMeds</h1>
+
+<p><strong>SafeMeds</strong> is an open-source app that uses AI to help you better understand your medications.<br>
 Just snap a photo of a prescription, and SafeMeds will extract all the medicines along with details like dosage, type, and duration.<br>
-And than You can then ask questions about the medicines to learn their purpose, possible side effects, and necessary precautions.
-
+And than You can then ask questions about the medicines to learn their purpose, possible side effects, and necessary precautions.</p>
+</div>
 <br>
 
 ## 🚀 Features:
