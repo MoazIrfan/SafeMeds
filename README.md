@@ -36,9 +36,14 @@ Ask questions about medicines and get instant answers.
 ---
 
 ## 🧩 Tech Stack
-- **Web**: Next.js, Tailwind CSS
-- **AI**: Gemini - 1.5 Pro
-- **Storage**: Pinecone DB
+- **Web**: 
+  - **Next.js**
+  - **Tailwind CSS**
+- **AI**:
+  - **Gemini 1.5 Pro** – For text extraction and question answering.  
+  - **mxbai-embed-large-v1** – Generates text embeddings.
+- **Storage**: 
+  - **Pinecone DB** - Vector database used to store and search embeddings.
 
 ---
 
