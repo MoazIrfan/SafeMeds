@@ -40,8 +40,8 @@ Ask questions about medicines and get instant answers.
   - **Next.js**
   - **Tailwind CSS**
 - **AI**:
-  - **Gemini 1.5 Pro** – For text extraction and question answering.  
-  - **mxbai-embed-large-v1** – Generates text embeddings.
+  - **Gemini 1.5 Pro** – Model for text extraction and question answering.  
+  - **mxbai-embed-large-v1** – Model for generating text embeddings.
 - **Storage**: 
   - **Pinecone DB** - Vector database used to store and search embeddings.
 
